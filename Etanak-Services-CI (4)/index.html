@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ETANAK SERVICES – Pressing & Transfert d’Argent</title>
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --bleu:#004AAD;
+  --vert:#00B36B;
+  --gris:#f4f6f8;
+  --texte:#1f2933;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:'Poppins',sans-serif;
+  color:var(--texte);
+  background:#fff;
+  line-height:1.6;
+}
+h1,h2,h3{
+  font-family:'Playfair Display',serif;
+}
+section{padding:80px 20px;}
+.container{max-width:1100px;margin:auto;}
+
+.hero{
+  background:
+    linear-gradient(rgba(255,255,255,.85),rgba(255,255,255,.85)),
+    url('https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?auto=format&fit=crop&w=1600&q=80');
+  background-size:cover;
+  background-position:center;
+  text-align:center;
+}
+.hero h1{
+  font-size:2.8rem;
+  color:var(--bleu);
+}
+.hero p{
+  max-width:650px;
+  margin:20px auto;
+}
+.cta{
+  display:inline-block;
+  padding:14px 28px;
+  margin:10px;
+  border-radius:50px;
+  text-decoration:none;
+  font-weight:500;
+}
+.cta.primary{background:var(--bleu);color:#fff;}
+.cta.secondary{background:var(--vert);color:#fff;}
+
+.stats{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  text-align:center;
+}
+.stat{
+  background:#fff;
+  padding:30px;
+  border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,.05);
+}
+
+.services{
+  background:var(--gris);
+}
+.cards{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:30px;
+}
+.card{
+  background:#fff;
+  padding:30px;
+  border-radius:18px;
+  box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.pricing{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+  gap:30px;
+}
+.price-box{
+  border:1px solid #e5e7eb;
+  border-radius:18px;
+  padding:30px;
+}
+.price-box h3{color:var(--bleu);margin-bottom:15px;}
+.price{color:var(--vert);font-weight:600;}
+
+.process{
+  background:#fff;
+}
+.steps{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+  gap:25px;
+}
+.step{
+  padding:20px;
+  border-left:4px solid var(--bleu);
+}
+
+.corporate{
+  background:linear-gradient(135deg,var(--bleu),#002f73);
+  color:#fff;
+  text-align:center;
+}
+.corporate a{background:#fff;color:var(--bleu);}
+
+.faq{
+  background:var(--gris);
+}
+.faq details{
+  background:#fff;
+  margin-bottom:15px;
+  padding:20px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,.05);
+}
+
+footer{
+  background:#0f172a;
+  color:#cbd5e1;
+  text-align:center;
+  padding:40px 20px;
+  font-size:.85rem;
+}
+
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="container">
+    <h1>ETANAK SERVICES</h1>
+    <p>Pressing professionnel & transfert d’argent sécurisé.  
+    Propreté irréprochable. Tarifs clairs. Service maîtrisé.</p>
+    <a href="#tarifs" class="cta primary">Voir les Tarifs</a>
+    <a href="https://wa.me/2250700000000" class="cta secondary">WhatsApp Direct</a>
+  </div>
+</section>
+
+<section>
+  <div class="container stats">
+    <div class="stat"><strong>+1 000</strong><br>Clients servis</div>
+    <div class="stat"><strong>Service actif</strong><br>Depuis plusieurs années</div>
+    <div class="stat"><strong>Particuliers & Entreprises</strong><br>Pris en charge</div>
+  </div>
+</section>
+
+<section class="services">
+  <div class="container">
+    <h2>Nos Services</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🧼 Pressing</h3>
+        <p>Traitement soigné, respect des tissus, finition professionnelle.</p>
+      </div>
+      <div class="card">
+        <h3>💸 Transfert d’Argent</h3>
+        <p>Rapide, fiable et sécurisé pour vos besoins quotidiens.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tarifs">
+  <div class="container">
+    <h2>Tarifs Clairs</h2>
+    <div class="pricing">
+      <div class="price-box">
+        <h3>Laver & Repasser</h3>
+        <p>5 articles <span class="price">1 000 F</span></p>
+        <p>15 articles <span class="price">2 500 F</span></p>
+        <p>30 articles <span class="price">4 500 F</span></p>
+      </div>
+      <div class="price-box">
+        <h3>Laver & Essorer</h3>
+        <p>5 articles <span class="price">2 000 F</span></p>
+        <p>15 articles <span class="price">4 000 F</span></p>
+        <p>30 articles <span class="price">7 000 F</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="process">
+  <div class="container">
+    <h2>Notre Méthode</h2>
+    <div class="steps">
+      <div class="step">1. Dépôt du linge</div>
+      <div class="step">2. Traitement professionnel</div>
+      <div class="step">3. Contrôle qualité</div>
+      <div class="step">4. Retrait rapide</div>
+    </div>
+  </div>
+</section>
+
+<section class="corporate">
+  <div class="container">
+    <h2>Offre Mensuelle Entreprise</h2>
+    <p>Une solution dédiée pour hôtels, bureaux et commerces.</p>
+    <a href="https://wa.me/2250700000000" class="cta">Demander un devis</a>
+  </div>
+</section>
+
+<section class="faq">
+  <div class="container">
+    <h2>Questions Fréquentes</h2>
+    <details>
+      <summary>Délais de traitement ?</summary>
+      <p>24 à 48h selon le volume.</p>
+    </details>
+    <details>
+      <summary>Service express possible ?</summary>
+      <p>Oui pour les petites quantités déposées tôt.</p>
+    </details>
+    <details>
+      <summary>Travaillez-vous avec les entreprises ?</summary>
+      <p>Oui, avec forfaits mensuels personnalisés.</p>
+    </details>
+  </div>
+</section>
+
+<footer>
+  <p>© ETANAK SERVICES – Tous droits réservés</p>
+  <p>Propulsé par <strong>PULSAR Digital</strong></p>
+</footer>
+
+</body>
+</html>
